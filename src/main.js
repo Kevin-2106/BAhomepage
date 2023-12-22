@@ -68,12 +68,12 @@ let isSupp = myVid.canPlayType('audio/ogg; codecs="vorbis"')
 let url
 
 if (isSupp === '') {
-  url = '/l2d/bgm.m4a'
+  url = '/l2d/Theme_173.m4a'
 } else {
-  url = '/l2d/Theme_21.ogg'
+  url = '/l2d/Theme_173.ogg'
 }
 
-PIXI.Assets.load('/l2d/CH0063_home.skel').then((resource) => {
+PIXI.Assets.load('/l2d/CH0205_home.skel').then((resource) => {
   sound.add('bgm', {
     url: url,
     loop: true

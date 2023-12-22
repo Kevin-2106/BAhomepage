@@ -12,7 +12,7 @@ const about = () => {
         {},
         config.author === '小鱼yuzifu'
           ? `© ${new Date().getFullYear()} 小鱼yuzifu`
-          : [`© ${new Date().getFullYear()} ${config.author}`, h('p', {}, 'Made by 小鱼yuzifu')]
+          : [`© ${new Date().getFullYear()} ${config.author}`, h('p', {}, 'Originally made by 小鱼yuzifu\nModified by Kevin_2106')]
       ),
       h('span', {}, '项目地址：'),
       h('a', { href: 'https://github.com/sf-yuzifu/homepage', target: '_blank' }, 'Github'),

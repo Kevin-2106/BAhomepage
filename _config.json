@@ -1,32 +1,27 @@
 {
-  "title": "小鱼档案",
-  "description": "有关小鱼的《蔚蓝档案》风格的个人主页",
-  "favicon": "/favicon144.png",
-  "author": "小鱼yuzifu",
-  "keywords": "蔚蓝档案,小鱼yuzifu,个人主页",
+  "title": "Kevin Archive",
+  "description": "Kevin's Blue Archive themed homepage",
+  "favicon": "/favicon.ico",
+  "author": "Kevin_2106",
+  "keywords": "Kevin_2106",
   "ICP": "",
   "manifest": {
-    "name": "小鱼档案",
-    "short_name": "小鱼档案",
-    "description": "有关小鱼的《蔚蓝档案》风格的个人主页",
+    "name": "Kevin Archive",
+    "short_name": "KA",
+    "description": "Kevin's Blue Archive themed homepage",
     "theme_color": "#128AFA",
     "start_url": "/",
     "id": "Homepage",
     "icons": [
       {
-        "src": "/favicon512.png",
-        "sizes": "512x512",
-        "purpose": "any maskable"
-      },
-      {
-        "src": "/favicon144.png",
-        "sizes": "144x144"
+        "src": "/favicon.ico",
+        "sizes": "48x48"
       }
     ]
   },
-  "level": 75,
-  "exp": 114514,
-  "nextExp": 1919,
+  "level": 85,
+  "exp": 0,
+  "nextExp": 0,
   "iconfont": "https://at.alicdn.com/t/c/font_4336463_0i6ly0yvyzb.js",
   "dock": [
     {
@@ -57,23 +52,18 @@
   ],
   "contact": [
     {
-      "name": "QQ",
-      "href": "https://wpa.qq.com/msgrd?v=3&uin=1906929246&site=qq&menu=yes&jumpflag=1",
-      "iconfont": "icon-qq"
-    },
-    {
-      "name": "Gitee",
-      "href": "https://gitee.com/sf-yuzifu",
-      "iconfont": "icon-gitee"
+      "name": "Mail",
+      "href": "Mailto:contactkevin@lolisk.icu",
+      "iconfont": "icon-mail"
     },
     {
       "name": "Github",
-      "href": "https://github.com/sf-yuzifu",
+      "href": "https://github.com/Kevin_2106",
       "iconfont": "icon-github"
     },
     {
       "name": "BiliBili",
-      "href": "https://space.bilibili.com/447666445",
+      "href": "https://space.bilibili.com/441864450",
       "iconfont": "icon-bilibili"
     }
   ],
