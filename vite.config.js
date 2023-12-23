@@ -13,7 +13,8 @@ import config from './_config.json'
 export default defineConfig({
   build: {
     assetsInlineLimit: 0,
-    minify: 'esbuild'
+    minify: 'esbuild',
+    chunkSizeWarningLimit: 2500
   },
   plugins: [
     vue(),
