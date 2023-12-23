@@ -5,13 +5,14 @@
 <a href='https://github.com/sf-yuzifu/homepage/stargazers'><img alt="GitHub stars" src="https://img.shields.io/github/stars/sf-yuzifu/homepage?style=social"></a>
 </p>
 
-<div align="center">有关小鱼的《蔚蓝档案》风格的个人主页</div>
+<div align="center">有关小鱼的《蔚蓝档案》风格的个人主页 但是被Kevin修改过的版本</div>
 
 ![小鱼档案](shots/main.jpeg)
 
 ## 预览链接
 - [小鱼档案](https://yzf.moe)
 - [小鱼档案 - 备用](https://yuzifu.top/)
+- [Kevin Archive](https://kevin2106.top)
 
 ## 目前复刻程度
 - [x] 加载界面
@@ -20,6 +21,7 @@
 - [x] 弹窗复刻
 - [x] 什亭之箱转场
 - [x] 点击特效和动效
+- [x] (Kevin)进入动画
 
 ## 技术栈
 
@@ -107,6 +109,7 @@ yarn preview
       "name": "QQ", // 联系方式
       "href": "https://wpa.qq.com/msgrd?v=3&uin=1906929246&site=qq&menu=yes&jumpflag=1", // 联系地址
       "iconfont": "icon-qq" // iconfont图标id（只有icon-qq/github/bilibili/gitee）
+      //"imgSrc": "" 虽然原作者没有说，但是也可以直接指定链接。
     }
   ],
   // 任务按钮启动
