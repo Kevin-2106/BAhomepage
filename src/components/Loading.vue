@@ -35,7 +35,7 @@ setInterval(() => {
 export default {
   data() {
     return {
-      randomTips: ['首次加载可能较慢，请耐心等待', 'Blue Archive真的是一款积极向上的游戏！', '色色的事情不行！死刑！'],
+      randomTips: ['首次加载可能较慢，请耐心等待……', 'Blue Archive真的是一款积极向上的游戏！', '色色的事情不行！死刑！', '音频只有点击页面任意位置后才能播放！', 'B站关注Kevin_2106谢谢喵', 'BA启动！', '就不暴击 蒸馍，你不扶器？'],
       tipIndex: 0
     }
   },
