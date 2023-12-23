@@ -84,12 +84,18 @@ PIXI.Assets.load('/l2d/CH0205_home.skel').then((resource) => {
   const animation = new Spine(resource.spineData)
   l2d.stage.addChild(animation)
 
-  if (animation.state.hasAnimation('Idle_01')) {
+    if (animation.state.hasAnimation('Start_Idle_01')) {
     animation.scale.set(0.3 * scale)
-    animation.state.setAnimation(0, 'Idle_01', true)
+    animation.state.setAnimation(0, 'Start_Idle_01', false)
+    animation.state.addListener({
+      complete: function () {
+        animation.state.setAnimation(0, 'Idle_01', true)
+      }
+    })
     animation.state.timeScale = 1
     animation.autoUpdate = true
     animation.y = (((2568 + 1600) * 0.3) / 2) * scale
     animation.x = ((3462 * 0.3) / 2) * scale
   }
-})
+}
+)

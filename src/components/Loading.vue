@@ -31,6 +31,22 @@ setInterval(() => {
 }, 2000)
 </script>
 
+<script>
+export default {
+  data() {
+    return {
+      randomTips: ['首次加载可能较慢，请耐心等待', 'Blue Archive真的是一款积极向上的游戏！', '色色的事情不行！死刑！'],
+      tipIndex: 0
+    }
+  },
+  mounted() {
+    setInterval(() => {
+      this.tipIndex = Math.floor(Math.random() * this.randomTips.length)
+    }, 1000)
+  }
+}
+</script>
+
 <template>
   <div class="loading_wrapper">
     <div ref="loadingImg" class="avatar_img bounce-top">
@@ -46,9 +62,13 @@ setInterval(() => {
     <div class="progress_wrapper">
       <h1 class="title">connecting...</h1>
       <div class="percent">{{ Math.floor(prop.percent * 100) + '%' }}</div>
+      <div class="tip">{{ randomTips[tipIndex] }}</div>
     </div>
   </div>
 </template>
+
+
+
 
 <style scoped>
 @keyframes move {
@@ -113,6 +133,13 @@ img {
 .progress_wrapper .percent {
   margin-top: 0.3666666667rem;
   font-size: 1.4rem;
+  font-family: TVPS-Vain-Capital-2, system-ui;
+  color: #1289f9;
+}
+
+.progress_wrapper .tip {
+  margin-top: 1rem;
+  font-size: 1.0rem;
   font-family: TVPS-Vain-Capital-2, system-ui;
   color: #1289f9;
 }

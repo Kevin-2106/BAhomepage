@@ -25,50 +25,45 @@
   "iconfont": "https://at.alicdn.com/t/c/font_4336463_0i6ly0yvyzb.js",
   "dock": [
     {
-      "name": "一起吃小鱼",
-      "href": "https://gitee.com/sf-yuzifu/eat-fish-together",
-      "imgSrc": "/img/fish.png"
+      "name": "prprBlog",
+      "href": "https://prprblog.kevin2106.top/",
+      "imgSrc": "/img/prprBlog.jpg"
     },
     {
-      "name": "编程猫格式工厂",
-      "href": "https://gitee.com/sf-yuzifu/bcm_convertor",
-      "imgSrc": "/img/convertor.png"
+      "name": "Kivotos-GSC",
+      "href": "https://kivotos-gsc.top/",
+      "imgSrc": "/img/kivotosgsc.webp"
     },
     {
-      "name": "Waddle编辑器",
-      "href": "https://waddle.coco-central.cn/",
-      "imgSrc": "/img/waddle2.png"
+      "name": "StudyWithMiku",
+      "href": "https://miku.lolisk.icu/",
+      "imgSrc": "/img/swm.png"
     },
     {
-      "name": "PICKDUCK",
-      "href": "https://shequ.pgaot.com/",
-      "imgSrc": "/img/pickduck.png"
-    },
-    {
-      "name": "Boxy编辑器",
-      "href": "https://boxy.coco-central.cn/",
-      "imgSrc": "/img/boxy.png"
+      "name": "LobeChat",
+      "href": "https://lobe.lolisk.icu/",
+      "imgSrc": "/img/lobe.png"
     }
   ],
   "contact": [
     {
       "name": "Mail",
       "href": "Mailto:contactkevin@lolisk.icu",
-      "iconfont": "icon-mail"
-    },
-    {
-      "name": "Github",
-      "href": "https://github.com/Kevin_2106",
-      "iconfont": "icon-github"
+      "imgSrc": "/img/schale.png"
     },
     {
       "name": "BiliBili",
       "href": "https://space.bilibili.com/441864450",
       "iconfont": "icon-bilibili"
+    },
+    {
+      "name": "Youtube",
+      "href": "https://www.youtube.com/@kevin-2106",
+      "imgSrc": "https://www.gstatic.com/youtube/img/branding/favicon/favicon_144x144.png"
     }
   ],
   "task": {
-    "name": "个人博客",
-    "href": "https://blog.yzf.moe/"
+    "name": "B站主页",
+    "href": "https://space.bilibili.com/441864450"
   }
 }
